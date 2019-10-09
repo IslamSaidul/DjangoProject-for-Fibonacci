@@ -121,9 +121,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # Extra lookup directories for collectstatic to find static files
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
 
 # Activate Django-Heroku settings except logging
 django_heroku.settings(locals(), logging=False)
