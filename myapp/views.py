@@ -16,7 +16,7 @@ def show(request):
 		num = int(number)
 		result = fibonacci(num)
 		exe_time=datetime.datetime.now()-start_time
-		store = Fibonaccis(result=result, exe_time=exe_time)
+		store = Fibonaccis(fib_result=result, exe_time=exe_time)
 		store.save()
 	return render(request, 'fibonacci.html', {"result":result, "num":num, "exe_time":exe_time})
 

@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'fibonacci',
+        'NAME': 'Fibonacci',
         'USER': 'root',
         'PASSWORD': 'Ebapl@123',
         'HOST': "",
